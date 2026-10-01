@@ -1,0 +1,1626 @@
+{
+  "generated_at": "2026-10-01T11:51:51+08:00",
+  "dataset": "evaluation\\questions.json",
+  "question_count": 31,
+  "metrics_by_k": {
+    "1": {
+      "k": 1,
+      "question_count": 31,
+      "source_recall_at_k": 0.6774193548387096,
+      "hit_rate_at_k": 0.8064516129032258,
+      "average_latency_ms": 237.36760645159583,
+      "empty_result_rate": 0.0,
+      "questions": [
+        {
+          "id": "maintenance_main_brush",
+          "question": "每次清扫完成后，主刷缠了毛发应该怎么清理？",
+          "relevant_sources": [
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt"
+          ],
+          "matched_sources": [],
+          "recall_at_k": 0.0,
+          "hit_at_k": 0,
+          "latency_ms": 652.07
+        },
+        {
+          "id": "troubleshooting_low_suction",
+          "question": "扫地机器人吸力明显下降，应该先检查哪些部位？",
+          "relevant_sources": [
+            "故障排除.txt",
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt"
+          ],
+          "matched_sources": [],
+          "recall_at_k": 0.0,
+          "hit_at_k": 0,
+          "latency_ms": 267.62
+        },
+        {
+          "id": "hybrid_wood_floor_water",
+          "question": "扫拖一体机器人清洁木地板时，出水量应该怎么设置？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt",
+            "选购指南.txt"
+          ],
+          "retrieved_sources": [
+            "维护保养.txt"
+          ],
+          "matched_sources": [],
+          "recall_at_k": 0.0,
+          "hit_at_k": 0,
+          "latency_ms": 150.06
+        },
+        {
+          "id": "troubleshooting_wifi",
+          "question": "扫地机器人无法连接 WiFi，应该如何排查？",
+          "relevant_sources": [
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 153.33
+        },
+        {
+          "id": "buying_carpet",
+          "question": "家里有地毯，选购扫地机器人时要重点关注什么？",
+          "relevant_sources": [
+            "选购指南.txt"
+          ],
+          "retrieved_sources": [
+            "选购指南.txt"
+          ],
+          "matched_sources": [
+            "选购指南.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 149.27
+        },
+        {
+          "id": "hybrid_water_marks",
+          "question": "扫拖后地面出现条纹状水痕，怎么处理？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 0.5,
+          "hit_at_k": 1,
+          "latency_ms": 146.19
+        },
+        {
+          "id": "troubleshooting_dock",
+          "question": "机器人找不到充电座时，应该检查和处理什么？",
+          "relevant_sources": [
+            "故障排除.txt",
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 0.5,
+          "hit_at_k": 1,
+          "latency_ms": 134.61
+        },
+        {
+          "id": "buying_pets",
+          "question": "有宠物和毛发的家庭选购扫地机器人，需要关注哪些功能？",
+          "relevant_sources": [
+            "选购指南.txt"
+          ],
+          "retrieved_sources": [
+            "选购指南.txt"
+          ],
+          "matched_sources": [
+            "选购指南.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 247.74
+        },
+        {
+          "id": "maintenance_filter_replacement",
+          "question": "HEPA滤网多久清理一次，通常多久需要更换？",
+          "relevant_sources": [
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "维护保养.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 155.3
+        },
+        {
+          "id": "maintenance_charge_contacts",
+          "question": "扫地机器人和充电座的金属触点应该怎么清洁？",
+          "relevant_sources": [
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "维护保养.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 161.55
+        },
+        {
+          "id": "maintenance_water_tank_after_mopping",
+          "question": "扫拖结束后水箱里剩下的水应该怎么处理？",
+          "relevant_sources": [
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "维护保养.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 213.22
+        },
+        {
+          "id": "maintenance_long_storage",
+          "question": "扫地机器人要存放几个月不用，怎样避免电池亏电？",
+          "relevant_sources": [
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "维护保养.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 177.13
+        },
+        {
+          "id": "maintenance_pet_hair",
+          "question": "宠物掉毛的家庭每次清扫后需要重点清理机器人哪些部位？",
+          "relevant_sources": [
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "维护保养.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 170.83
+        },
+        {
+          "id": "maintenance_side_brush_wear",
+          "question": "边刷刷毛磨损到什么程度就应该更换？",
+          "relevant_sources": [
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt"
+          ],
+          "matched_sources": [],
+          "recall_at_k": 0.0,
+          "hit_at_k": 0,
+          "latency_ms": 160.44
+        },
+        {
+          "id": "troubleshooting_no_power",
+          "question": "扫地机器人按开机键没有反应，指示灯也不亮，先检查什么？",
+          "relevant_sources": [
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 144.03
+        },
+        {
+          "id": "troubleshooting_slow_movement",
+          "question": "机器人移动很慢或不动，应该检查驱动轮和万向轮的哪些问题？",
+          "relevant_sources": [
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt"
+          ],
+          "matched_sources": [],
+          "recall_at_k": 0.0,
+          "hit_at_k": 0,
+          "latency_ms": 305.65
+        },
+        {
+          "id": "troubleshooting_main_brush_stuck",
+          "question": "主刷不转了，用户可以先做哪些检查和处理？",
+          "relevant_sources": [
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 163.72
+        },
+        {
+          "id": "troubleshooting_charging_failure",
+          "question": "机器人充电时指示灯闪烁但充不进电，该怎么排查？",
+          "relevant_sources": [
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 142.41
+        },
+        {
+          "id": "troubleshooting_map_error",
+          "question": "机器人建图不完整或者地图错乱，应该如何处理？",
+          "relevant_sources": [
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 155.04
+        },
+        {
+          "id": "troubleshooting_no_mop_water",
+          "question": "扫拖机器人拖地时不出水，可以按什么顺序排查？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "matched_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "recall_at_k": 0.5,
+          "hit_at_k": 1,
+          "latency_ms": 256.89
+        },
+        {
+          "id": "troubleshooting_water_tank_leak",
+          "question": "拖地时水箱漏水，应该检查水箱的哪些位置？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 0.5,
+          "hit_at_k": 1,
+          "latency_ms": 145.39
+        },
+        {
+          "id": "troubleshooting_dustbin_alarm",
+          "question": "尘盒已经装回去，机器人仍提示尘盒未安装，怎么处理？",
+          "relevant_sources": [
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 148.61
+        },
+        {
+          "id": "hybrid_vacuum_only",
+          "question": "扫拖一体机器人能不能只扫地而不拖地，应该怎么设置？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "retrieved_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "matched_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 1040.36
+        },
+        {
+          "id": "hybrid_cleaner_dilution",
+          "question": "往扫拖机器人的水箱里加清洁液时，应该按什么比例稀释？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt",
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "matched_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "recall_at_k": 0.5,
+          "hit_at_k": 1,
+          "latency_ms": 165.82
+        },
+        {
+          "id": "hybrid_carpet_no_mop",
+          "question": "家里有地毯，怎么设置才能让机器人经过时只扫不拖？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt",
+            "选购指南.txt"
+          ],
+          "retrieved_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "matched_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "recall_at_k": 0.5,
+          "hit_at_k": 1,
+          "latency_ms": 187.33
+        },
+        {
+          "id": "hybrid_mop_odor",
+          "question": "拖布洗完后还是有异味，应该怎么清洗和晾干？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt",
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "matched_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "recall_at_k": 0.5,
+          "hit_at_k": 1,
+          "latency_ms": 160.69
+        },
+        {
+          "id": "hybrid_water_refill",
+          "question": "大户型拖地过程中水箱中途没水了，有什么处理办法？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "retrieved_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "matched_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 135.27
+        },
+        {
+          "id": "buying_carpet_suction",
+          "question": "家里地毯比较多，选购时吸力参数至少要重点关注到什么范围？",
+          "relevant_sources": [
+            "选购指南.txt"
+          ],
+          "retrieved_sources": [
+            "选购指南.txt"
+          ],
+          "matched_sources": [
+            "选购指南.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 153.98
+        },
+        {
+          "id": "buying_complex_home_navigation",
+          "question": "户型比较复杂，激光导航和视觉导航各有什么适用特点？",
+          "relevant_sources": [
+            "选购指南.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问.pdf"
+          ],
+          "matched_sources": [],
+          "recall_at_k": 0.0,
+          "hit_at_k": 0,
+          "latency_ms": 151.72
+        },
+        {
+          "id": "buying_easy_operation",
+          "question": "给家中长辈买扫地机器人，操作和APP方面应该关注什么？",
+          "relevant_sources": [
+            "选购指南.txt"
+          ],
+          "retrieved_sources": [
+            "选购指南.txt"
+          ],
+          "matched_sources": [
+            "选购指南.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 821.82
+        },
+        {
+          "id": "buying_wood_floor_mop",
+          "question": "家里主要是木地板，选扫拖机器人时拖布和出水功能要看什么？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt",
+            "选购指南.txt"
+          ],
+          "retrieved_sources": [
+            "选购指南.txt"
+          ],
+          "matched_sources": [
+            "选购指南.txt"
+          ],
+          "recall_at_k": 0.5,
+          "hit_at_k": 1,
+          "latency_ms": 140.29
+        }
+      ]
+    },
+    "3": {
+      "k": 3,
+      "question_count": 31,
+      "source_recall_at_k": 0.9032258064516129,
+      "hit_rate_at_k": 1.0,
+      "average_latency_ms": 175.07028064512505,
+      "empty_result_rate": 0.0,
+      "questions": [
+        {
+          "id": "maintenance_main_brush",
+          "question": "每次清扫完成后，主刷缠了毛发应该怎么清理？",
+          "relevant_sources": [
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt",
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "维护保养.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 142.64
+        },
+        {
+          "id": "troubleshooting_low_suction",
+          "question": "扫地机器人吸力明显下降，应该先检查哪些部位？",
+          "relevant_sources": [
+            "故障排除.txt",
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt",
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 0.5,
+          "hit_at_k": 1,
+          "latency_ms": 131.2
+        },
+        {
+          "id": "hybrid_wood_floor_water",
+          "question": "扫拖一体机器人清洁木地板时，出水量应该怎么设置？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt",
+            "选购指南.txt"
+          ],
+          "retrieved_sources": [
+            "扫拖一体机器人100问.txt",
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "recall_at_k": 0.5,
+          "hit_at_k": 1,
+          "latency_ms": 173.24
+        },
+        {
+          "id": "troubleshooting_wifi",
+          "question": "扫地机器人无法连接 WiFi，应该如何排查？",
+          "relevant_sources": [
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 240.87
+        },
+        {
+          "id": "buying_carpet",
+          "question": "家里有地毯，选购扫地机器人时要重点关注什么？",
+          "relevant_sources": [
+            "选购指南.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问.pdf",
+            "维护保养.txt",
+            "选购指南.txt"
+          ],
+          "matched_sources": [
+            "选购指南.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 159.5
+        },
+        {
+          "id": "hybrid_water_marks",
+          "question": "扫拖后地面出现条纹状水痕，怎么处理？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt",
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 0.5,
+          "hit_at_k": 1,
+          "latency_ms": 154.57
+        },
+        {
+          "id": "troubleshooting_dock",
+          "question": "机器人找不到充电座时，应该检查和处理什么？",
+          "relevant_sources": [
+            "故障排除.txt",
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt",
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 0.5,
+          "hit_at_k": 1,
+          "latency_ms": 166.92
+        },
+        {
+          "id": "buying_pets",
+          "question": "有宠物和毛发的家庭选购扫地机器人，需要关注哪些功能？",
+          "relevant_sources": [
+            "选购指南.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问.pdf",
+            "选购指南.txt"
+          ],
+          "matched_sources": [
+            "选购指南.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 347.51
+        },
+        {
+          "id": "maintenance_filter_replacement",
+          "question": "HEPA滤网多久清理一次，通常多久需要更换？",
+          "relevant_sources": [
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问.pdf",
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "维护保养.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 173.76
+        },
+        {
+          "id": "maintenance_charge_contacts",
+          "question": "扫地机器人和充电座的金属触点应该怎么清洁？",
+          "relevant_sources": [
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "故障排除.txt",
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "维护保养.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 151.76
+        },
+        {
+          "id": "maintenance_water_tank_after_mopping",
+          "question": "扫拖结束后水箱里剩下的水应该怎么处理？",
+          "relevant_sources": [
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "扫拖一体机器人100问.txt",
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "维护保养.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 266.84
+        },
+        {
+          "id": "maintenance_long_storage",
+          "question": "扫地机器人要存放几个月不用，怎样避免电池亏电？",
+          "relevant_sources": [
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "维护保养.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 156.99
+        },
+        {
+          "id": "maintenance_pet_hair",
+          "question": "宠物掉毛的家庭每次清扫后需要重点清理机器人哪些部位？",
+          "relevant_sources": [
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "故障排除.txt",
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "维护保养.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 152.47
+        },
+        {
+          "id": "maintenance_side_brush_wear",
+          "question": "边刷刷毛磨损到什么程度就应该更换？",
+          "relevant_sources": [
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt",
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "维护保养.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 189.21
+        },
+        {
+          "id": "troubleshooting_no_power",
+          "question": "扫地机器人按开机键没有反应，指示灯也不亮，先检查什么？",
+          "relevant_sources": [
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt",
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 162.41
+        },
+        {
+          "id": "troubleshooting_slow_movement",
+          "question": "机器人移动很慢或不动，应该检查驱动轮和万向轮的哪些问题？",
+          "relevant_sources": [
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt",
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 138.31
+        },
+        {
+          "id": "troubleshooting_main_brush_stuck",
+          "question": "主刷不转了，用户可以先做哪些检查和处理？",
+          "relevant_sources": [
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 166.59
+        },
+        {
+          "id": "troubleshooting_charging_failure",
+          "question": "机器人充电时指示灯闪烁但充不进电，该怎么排查？",
+          "relevant_sources": [
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 158.78
+        },
+        {
+          "id": "troubleshooting_map_error",
+          "question": "机器人建图不完整或者地图错乱，应该如何处理？",
+          "relevant_sources": [
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt",
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 134.38
+        },
+        {
+          "id": "troubleshooting_no_mop_water",
+          "question": "扫拖机器人拖地时不出水，可以按什么顺序排查？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 147.59
+        },
+        {
+          "id": "troubleshooting_water_tank_leak",
+          "question": "拖地时水箱漏水，应该检查水箱的哪些位置？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt",
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 176.57
+        },
+        {
+          "id": "troubleshooting_dustbin_alarm",
+          "question": "尘盒已经装回去，机器人仍提示尘盒未安装，怎么处理？",
+          "relevant_sources": [
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt",
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 169.58
+        },
+        {
+          "id": "hybrid_vacuum_only",
+          "question": "扫拖一体机器人能不能只扫地而不拖地，应该怎么设置？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "retrieved_sources": [
+            "扫拖一体机器人100问.txt",
+            "选购指南.txt"
+          ],
+          "matched_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 163.38
+        },
+        {
+          "id": "hybrid_cleaner_dilution",
+          "question": "往扫拖机器人的水箱里加清洁液时，应该按什么比例稀释？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt",
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt",
+            "扫拖一体机器人100问.txt",
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "扫拖一体机器人100问.txt",
+            "维护保养.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 136.59
+        },
+        {
+          "id": "hybrid_carpet_no_mop",
+          "question": "家里有地毯，怎么设置才能让机器人经过时只扫不拖？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt",
+            "选购指南.txt"
+          ],
+          "retrieved_sources": [
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "recall_at_k": 0.5,
+          "hit_at_k": 1,
+          "latency_ms": 135.85
+        },
+        {
+          "id": "hybrid_mop_odor",
+          "question": "拖布洗完后还是有异味，应该怎么清洗和晾干？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt",
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "扫拖一体机器人100问.txt",
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "扫拖一体机器人100问.txt",
+            "维护保养.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 131.82
+        },
+        {
+          "id": "hybrid_water_refill",
+          "question": "大户型拖地过程中水箱中途没水了，有什么处理办法？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "retrieved_sources": [
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 150.22
+        },
+        {
+          "id": "buying_carpet_suction",
+          "question": "家里地毯比较多，选购时吸力参数至少要重点关注到什么范围？",
+          "relevant_sources": [
+            "选购指南.txt"
+          ],
+          "retrieved_sources": [
+            "选购指南.txt"
+          ],
+          "matched_sources": [
+            "选购指南.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 353.15
+        },
+        {
+          "id": "buying_complex_home_navigation",
+          "question": "户型比较复杂，激光导航和视觉导航各有什么适用特点？",
+          "relevant_sources": [
+            "选购指南.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问.pdf",
+            "选购指南.txt"
+          ],
+          "matched_sources": [
+            "选购指南.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 170.95
+        },
+        {
+          "id": "buying_easy_operation",
+          "question": "给家中长辈买扫地机器人，操作和APP方面应该关注什么？",
+          "relevant_sources": [
+            "选购指南.txt"
+          ],
+          "retrieved_sources": [
+            "选购指南.txt"
+          ],
+          "matched_sources": [
+            "选购指南.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 186.35
+        },
+        {
+          "id": "buying_wood_floor_mop",
+          "question": "家里主要是木地板，选扫拖机器人时拖布和出水功能要看什么？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt",
+            "选购指南.txt"
+          ],
+          "retrieved_sources": [
+            "维护保养.txt",
+            "选购指南.txt"
+          ],
+          "matched_sources": [
+            "选购指南.txt"
+          ],
+          "recall_at_k": 0.5,
+          "hit_at_k": 1,
+          "latency_ms": 137.19
+        }
+      ]
+    },
+    "5": {
+      "k": 5,
+      "question_count": 31,
+      "source_recall_at_k": 0.9516129032258065,
+      "hit_rate_at_k": 1.0,
+      "average_latency_ms": 186.2359161290178,
+      "empty_result_rate": 0.0,
+      "questions": [
+        {
+          "id": "maintenance_main_brush",
+          "question": "每次清扫完成后，主刷缠了毛发应该怎么清理？",
+          "relevant_sources": [
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt",
+            "故障排除.txt",
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "维护保养.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 167.61
+        },
+        {
+          "id": "troubleshooting_low_suction",
+          "question": "扫地机器人吸力明显下降，应该先检查哪些部位？",
+          "relevant_sources": [
+            "故障排除.txt",
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt",
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt",
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt",
+            "维护保养.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 150.7
+        },
+        {
+          "id": "hybrid_wood_floor_water",
+          "question": "扫拖一体机器人清洁木地板时，出水量应该怎么设置？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt",
+            "选购指南.txt"
+          ],
+          "retrieved_sources": [
+            "扫拖一体机器人100问.txt",
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "recall_at_k": 0.5,
+          "hit_at_k": 1,
+          "latency_ms": 158.69
+        },
+        {
+          "id": "troubleshooting_wifi",
+          "question": "扫地机器人无法连接 WiFi，应该如何排查？",
+          "relevant_sources": [
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt",
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 180.5
+        },
+        {
+          "id": "buying_carpet",
+          "question": "家里有地毯，选购扫地机器人时要重点关注什么？",
+          "relevant_sources": [
+            "选购指南.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问.pdf",
+            "维护保养.txt",
+            "选购指南.txt"
+          ],
+          "matched_sources": [
+            "选购指南.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 167.53
+        },
+        {
+          "id": "hybrid_water_marks",
+          "question": "扫拖后地面出现条纹状水痕，怎么处理？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt",
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 217.48
+        },
+        {
+          "id": "troubleshooting_dock",
+          "question": "机器人找不到充电座时，应该检查和处理什么？",
+          "relevant_sources": [
+            "故障排除.txt",
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt",
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 0.5,
+          "hit_at_k": 1,
+          "latency_ms": 229.37
+        },
+        {
+          "id": "buying_pets",
+          "question": "有宠物和毛发的家庭选购扫地机器人，需要关注哪些功能？",
+          "relevant_sources": [
+            "选购指南.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问.pdf",
+            "选购指南.txt"
+          ],
+          "matched_sources": [
+            "选购指南.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 238.38
+        },
+        {
+          "id": "maintenance_filter_replacement",
+          "question": "HEPA滤网多久清理一次，通常多久需要更换？",
+          "relevant_sources": [
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问.pdf",
+            "扫地机器人100问2.txt",
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "维护保养.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 159.99
+        },
+        {
+          "id": "maintenance_charge_contacts",
+          "question": "扫地机器人和充电座的金属触点应该怎么清洁？",
+          "relevant_sources": [
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt",
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "维护保养.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 137.42
+        },
+        {
+          "id": "maintenance_water_tank_after_mopping",
+          "question": "扫拖结束后水箱里剩下的水应该怎么处理？",
+          "relevant_sources": [
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "扫拖一体机器人100问.txt",
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "维护保养.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 268.92
+        },
+        {
+          "id": "maintenance_long_storage",
+          "question": "扫地机器人要存放几个月不用，怎样避免电池亏电？",
+          "relevant_sources": [
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "维护保养.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 267.5
+        },
+        {
+          "id": "maintenance_pet_hair",
+          "question": "宠物掉毛的家庭每次清扫后需要重点清理机器人哪些部位？",
+          "relevant_sources": [
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "故障排除.txt",
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "维护保养.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 260.94
+        },
+        {
+          "id": "maintenance_side_brush_wear",
+          "question": "边刷刷毛磨损到什么程度就应该更换？",
+          "relevant_sources": [
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt",
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "维护保养.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 159.92
+        },
+        {
+          "id": "troubleshooting_no_power",
+          "question": "扫地机器人按开机键没有反应，指示灯也不亮，先检查什么？",
+          "relevant_sources": [
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt",
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 299.84
+        },
+        {
+          "id": "troubleshooting_slow_movement",
+          "question": "机器人移动很慢或不动，应该检查驱动轮和万向轮的哪些问题？",
+          "relevant_sources": [
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt",
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 149.37
+        },
+        {
+          "id": "troubleshooting_main_brush_stuck",
+          "question": "主刷不转了，用户可以先做哪些检查和处理？",
+          "relevant_sources": [
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt",
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 151.86
+        },
+        {
+          "id": "troubleshooting_charging_failure",
+          "question": "机器人充电时指示灯闪烁但充不进电，该怎么排查？",
+          "relevant_sources": [
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 145.61
+        },
+        {
+          "id": "troubleshooting_map_error",
+          "question": "机器人建图不完整或者地图错乱，应该如何处理？",
+          "relevant_sources": [
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt",
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 293.06
+        },
+        {
+          "id": "troubleshooting_no_mop_water",
+          "question": "扫拖机器人拖地时不出水，可以按什么顺序排查？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 200.43
+        },
+        {
+          "id": "troubleshooting_water_tank_leak",
+          "question": "拖地时水箱漏水，应该检查水箱的哪些位置？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt",
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 146.36
+        },
+        {
+          "id": "troubleshooting_dustbin_alarm",
+          "question": "尘盒已经装回去，机器人仍提示尘盒未安装，怎么处理？",
+          "relevant_sources": [
+            "故障排除.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt",
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "故障排除.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 172.58
+        },
+        {
+          "id": "hybrid_vacuum_only",
+          "question": "扫拖一体机器人能不能只扫地而不拖地，应该怎么设置？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "retrieved_sources": [
+            "扫拖一体机器人100问.txt",
+            "选购指南.txt"
+          ],
+          "matched_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 153.83
+        },
+        {
+          "id": "hybrid_cleaner_dilution",
+          "question": "往扫拖机器人的水箱里加清洁液时，应该按什么比例稀释？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt",
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问2.txt",
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt",
+            "维护保养.txt",
+            "选购指南.txt"
+          ],
+          "matched_sources": [
+            "扫拖一体机器人100问.txt",
+            "维护保养.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 171.06
+        },
+        {
+          "id": "hybrid_carpet_no_mop",
+          "question": "家里有地毯，怎么设置才能让机器人经过时只扫不拖？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt",
+            "选购指南.txt"
+          ],
+          "retrieved_sources": [
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt",
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "recall_at_k": 0.5,
+          "hit_at_k": 1,
+          "latency_ms": 162.61
+        },
+        {
+          "id": "hybrid_mop_odor",
+          "question": "拖布洗完后还是有异味，应该怎么清洗和晾干？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt",
+            "维护保养.txt"
+          ],
+          "retrieved_sources": [
+            "扫拖一体机器人100问.txt",
+            "维护保养.txt"
+          ],
+          "matched_sources": [
+            "扫拖一体机器人100问.txt",
+            "维护保养.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 157.03
+        },
+        {
+          "id": "hybrid_water_refill",
+          "question": "大户型拖地过程中水箱中途没水了，有什么处理办法？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "retrieved_sources": [
+            "扫拖一体机器人100问.txt",
+            "故障排除.txt"
+          ],
+          "matched_sources": [
+            "扫拖一体机器人100问.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 167.63
+        },
+        {
+          "id": "buying_carpet_suction",
+          "question": "家里地毯比较多，选购时吸力参数至少要重点关注到什么范围？",
+          "relevant_sources": [
+            "选购指南.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问.pdf",
+            "选购指南.txt"
+          ],
+          "matched_sources": [
+            "选购指南.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 154.65
+        },
+        {
+          "id": "buying_complex_home_navigation",
+          "question": "户型比较复杂，激光导航和视觉导航各有什么适用特点？",
+          "relevant_sources": [
+            "选购指南.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问.pdf",
+            "选购指南.txt"
+          ],
+          "matched_sources": [
+            "选购指南.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 167.0
+        },
+        {
+          "id": "buying_easy_operation",
+          "question": "给家中长辈买扫地机器人，操作和APP方面应该关注什么？",
+          "relevant_sources": [
+            "选购指南.txt"
+          ],
+          "retrieved_sources": [
+            "扫地机器人100问.pdf",
+            "扫拖一体机器人100问.txt",
+            "选购指南.txt"
+          ],
+          "matched_sources": [
+            "选购指南.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 163.56
+        },
+        {
+          "id": "buying_wood_floor_mop",
+          "question": "家里主要是木地板，选扫拖机器人时拖布和出水功能要看什么？",
+          "relevant_sources": [
+            "扫拖一体机器人100问.txt",
+            "选购指南.txt"
+          ],
+          "retrieved_sources": [
+            "扫拖一体机器人100问.txt",
+            "维护保养.txt",
+            "选购指南.txt"
+          ],
+          "matched_sources": [
+            "扫拖一体机器人100问.txt",
+            "选购指南.txt"
+          ],
+          "recall_at_k": 1.0,
+          "hit_at_k": 1,
+          "latency_ms": 151.87
+        }
+      ]
+    }
+  }
+}

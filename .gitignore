@@ -1,0 +1,21 @@
+# Python environments and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Local IDE settings
+.idea/
+
+# Logs and generated local data
+logs/
+chroma_db/
+md5.text
+*.log
+
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
